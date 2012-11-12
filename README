@@ -1,10 +1,10 @@
 # 文件说明
- - callback.php         *用户授权之后的回调页*
- - config.php           *配置文件*
- - index.php            *首页*
- - saetv2.ex.class.php  *Weibo SDK*
- - weibo_login.png      *一张图片而已*
- - weibolist.php        *演示微博 home_timeline 查询功能*
+ - callback.php         用户授权之后的回调页
+ - config.php           配置文件
+ - index.php            首页
+ - saetv2.ex.class.php  Weibo SDK 
+ - weibo_login.png      一张图片而已
+ - weibolist.php        演示微博 home_timeline 查询功能
 
 ---
 
@@ -14,7 +14,7 @@
 
 ---
 
-#什么是新浪SAE？
+# 什么是新浪SAE？
 
 新浪SAE，全称Sina App Engine( http://sae.sina.com.cn )，是新浪研发中心推出的国内首个公有云计算平台。
 
