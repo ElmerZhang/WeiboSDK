@@ -5,6 +5,7 @@ include_once( 'config.php' );
 include_once( 'saetv2.ex.class.php' );
 
 $o = new SaeTOAuthV2( WB_AKEY , WB_SKEY );
+$o->set_debug( DEBUG_MODE );
 
 if (isset($_REQUEST['code'])) {
 	$keys = array();

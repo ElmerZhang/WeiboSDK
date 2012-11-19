@@ -4,6 +4,7 @@ session_start();
 include_once( 'config.php' );
 include_once( 'saetv2.ex.class.php' );
 $c = new SaeTClientV2( WB_AKEY , WB_SKEY , $_SESSION['token']['access_token'] );
+$c->set_debug( DEBUG_MODE );
 $ms  = $c->home_timeline(); // done
 //var_dump($ms);
 $uid_get = $c->get_uid();

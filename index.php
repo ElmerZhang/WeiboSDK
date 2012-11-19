@@ -5,6 +5,7 @@ include_once( 'config.php' );
 include_once( 'saetv2.ex.class.php' );
 
 $o = new SaeTOAuthV2( WB_AKEY , WB_SKEY );
+$o->set_debug( DEBUG_MODE );
 
 // 生成state并存入SESSION，以供CALLBACK时验证使用
 $state = uniqid( 'weibo_', true);
