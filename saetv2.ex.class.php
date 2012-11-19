@@ -416,6 +416,20 @@ class SaeTOAuthV2 {
 	}
 
 	/**
+	 * 开启调试信息
+	 *
+	 * 开启调试信息后，SDK会将每次请求微博API所发送的POST Data、Headers以及请求信息、返回内容输出出来。
+	 *
+	 * @access public
+	 * @param bool $enable 是否开启调试信息
+	 * @return void
+	 */
+	function set_debug( $enable )
+	{
+		$this->debug = $enable;
+	}
+
+	/**
 	 * Get the header info to store.
 	 *
 	 * @return int
